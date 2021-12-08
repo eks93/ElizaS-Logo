@@ -353,7 +353,7 @@ template {
     Base
 ============= */
 .gs-dev-tools {
-  z-index: 70000;
+  z-index: 80000;
 }
 
 figure {
@@ -433,10 +433,8 @@ textarea {
     Footer
 ============= */
 #logo {
-  display: grid;
-  grid-template-columns: auto 90vw auto;
-  grid-template-areas: ". preloader .";
-  height: 90vh;
+  position: absolute;
+  height: 100vh;
   width: 100%;
   z-index: 5000;
 }
